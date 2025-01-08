@@ -1,5 +1,5 @@
 <template>
-  <el-tooltip :content="'Switch value: ' + value" placement="top">
+  <el-tooltip :content="'是否供应: ' + value" placement="top">
     <el-switch
       v-model="value"
       style="--el-switch-on-color: #13ce66; --el-switch-off-color: #ff4949"
